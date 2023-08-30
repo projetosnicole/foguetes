@@ -8,17 +8,13 @@ html{
   }
   
   header{
-    top: 0;
-    right: 0;
-    left: 0;
-    background-color:#8DB6CD;
-    padding: 2%;
-    font-family: CutiveMono-Regular;
+    background-color:	#6495ED;
+    padding: 1.5%;
+    font-family: 'Kalam', cursive;
     display: flex;
-    flex-direction: column;
     align-items: center;
-    
   }
+
   .fixo{
     position: fixed;
     width: 100%;
@@ -27,43 +23,50 @@ html{
   }
   
   .itens_menu{
-    text-align: center;
-    
+    text-align: left;
+    margin: 25%;
   }
   
   .itens_menu li {
     font-size: 1.3em;
     line-height: 1.5;
-   
+    display: inline;
+    margin-right: 2%;
   }
   
   .itens_menu a:visited, .itens_menu a:link{
-    color:	#4682B4; 
+    color:	#2F4F4F; 
     text-decoration: none; 
     font-weight: bolder;
   }
-  
-  .itens_menu a:hover{
-    background-color: #ADD8E6;
-    padding: 0.2%;
+
+  .active {
+    color: #191970;
+    background-color: rgb(47, 79, 79, 0.2) ;
+    padding: 2.6% 1.7%;
   }
   
-  
+  .itens_menu a:hover{
+    color: #191970;
+    margin-top: -5%;
+  }
   
   p{
+    margin-top: -2.5%;
       color:#363636;
       font-size:  1.5em;
-      line-height: 1.3;
+      line-height: 1.5;
       text-align: justify;
       font-family: 'OxygenMono-Regular', cursive;
   }
   
   h1,h2{
-      color:#4169E1;
+    font-family: 'Kalam', cursive;
+      color:#191970;
       text-align: center;
-      margin-bottom: 2%;
-      font-size: 2em;
-      font-family: 'Syne Mono', monospace;
+      margin-top: 5%;
+      margin-bottom: 5%;
+      font-size: 2.2em;
   }
   
   figure{
@@ -77,24 +80,18 @@ html{
      position: relative;
   }
   
-  .logo {
-    text-align: center;
-  }
-  
-  .img_logo {
-    width: 40%;
-    margin: 0.5%;
-    text-align: center;
-  
-  }
-  
   .img_topo{
-      width: 25%;
+      width: 40%;
+      margin-bottom: 0.5%;
+      margin-top: -2%;
+      float: left;
+      margin-right: 2%;
   }
   
   .img_corpo{
       width: 80%;
   }
+
   /* unvisited link */
   a:link {
       color: #A0522D;
@@ -124,8 +121,8 @@ html{
     }
   
     footer{
-      background-color: rgba(160, 82, 45, 0.3);
-      padding: 1%;
+      background-color:#6495ED;
+      padding: 2%;
       margin-top: 4%;
     }
   
@@ -170,16 +167,14 @@ html{
     .img_direita{
       float: right;
       margin-left: 2%;
-      margin-top: 2%;
-      margin-bottom: 2%;
+      margin-bottom: 1%;
       width: 30%;
     }
   
     .img_esquerda{
       float: left;
       margin-right: 2%;
-      margin-top: 1.3%;
-      margin-bottom: 2%;
+      margin-top: 0.5%;
       width: 25%;
     }
   
@@ -295,7 +290,7 @@ html{
       margin-top: 55%;
     }
     footer{
-      background-color: rgba(160, 82, 45, 0.3);
+      background-color: #6495ED;
       padding: 1%;
       margin-top: 20%;
     }
@@ -366,14 +361,15 @@ html{
     margin-top: 10%;
   }
   footer{
-    background-color: rgba(169,169,169);
-    padding: 1%;
+    background-color: #6495ED;
+    padding: 2.5%;
     margin-top: 20%;
   }
   
   footer p {
     text-align: center;
-    font-size: 1em;
+    align-items: center;
+    font-size: 1.2em;
   }
   table{
     width: 100%;
@@ -402,4 +398,9 @@ html{
     background-color: #DEB887;
   }
   
+}
+
+.img_ni{
+  width: 80%;
+  margin-bottom: 10%;
 }
